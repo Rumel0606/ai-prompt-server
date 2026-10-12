@@ -41,15 +41,7 @@ const client = new MongoClient(uri, {
     },
 });
 
-// MAIN RUN FUNCTION
-// async function run() {
-//     try {
-//         await client.connect();
 
-
-// client.connect(()=>{
-//     console.log('connecting to Mongodb');
-// }).catch(console.dir)
 
 const db = client.db("ai_promt_client");
 
